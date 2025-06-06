@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background-color: #f2f9ff;
+}
+
+#logo {
+  width: 320px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #4ABEF7;
+}
+
+.mission {
+  font-size: 1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 10px auto 30px;
+  text-align: center;
+  padding: 0 15px;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.tool {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.tool h2 {
+  margin-top: 0;
+  color: #2196F3;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #2196F3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.button:hover {
+  background-color: #1976D2;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  background-color: #f0f0f0;
+  color: #555;
+  padding-left: 10px;
+  padding-right: 10px;
+  word-wrap: break-word;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  #logo {
+    width: 230px;
+  }
+
+  .tagline {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .mission {
+    font-size: 0.95rem;
+    margin: 15px 10px 30px;
+    padding: 0 10px;
+  }
+
+  main {
+    padding: 0 10px;
+  }
+
+  .tool {
+    padding: 15px;
+  }
+
+  .button {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+
+  footer {
+    font-size: 0.85rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+} 
